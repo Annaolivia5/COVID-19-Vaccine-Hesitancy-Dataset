@@ -17,7 +17,8 @@ https://www.kaggle.com/deepshah16/vaccine-hesitancy-for-covid19?select=Vaccine_H
 
 ### Descriptions of Findings:
 * We realized Covid 19 vaccine hesitancy varies among different regions. We are interested in how economic factors, such as poverty, income level, and unemployment rate across different counties in the U.S. could affect Covid 19 vaccine hesitancy. As the result, people using the dataset can quickly check the correlation between these factors.
-![](jupyter_pic.png)
+
+![jupyter notebook image](jupyter_pic.png) "jupyter notebook image")
 ___________________________
 
 
@@ -41,6 +42,8 @@ ___________________________
 
 ### Load:
 * We created two SQL tables <vaccine_data> and <census_data> on postgres where the columns match the tables we cleaned. We used pandas to load data into SQL Database. We then joined two tables on “county_name” and “state” as we found there were several counties that existed in multiple states. Immediately afterwards we cleaned out redundant columns (repeat county and state names, and unnecessary reference id’s). The code can be seen below: 
+
+* ![jupyter notebook image](jupyter_pic.png) "jupyter notebook image")
 
 * We included a query within our jupyter notebook that can allow users a quick access to the final table. Here is a quick preview:
 
