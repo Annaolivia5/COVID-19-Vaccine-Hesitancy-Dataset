@@ -38,11 +38,13 @@ ___________________________
 
 * In order to format the data so they could be joined, we first drop the columns we didn’t need then we standardize our naming conventions between the dataframes as well as the eventual SQL database. A noteworthy fix we had to make was within the covid hesitancy data the county name was also including the state (ie: San Diego, CA). After fixing this we made sure that all of the columns followed the same rules for capitalization as well. A sample of our code making these changes can be seen below:
 
+![jupyter notebook image](Images/jupyter_pic.PNG "jupyter notebook image")
+
 
 ### Load:
 * We created two SQL tables <vaccine_data> and <census_data> on postgres where the columns match the tables we cleaned. We used pandas to load data into SQL Database. We then joined two tables on “county_name” and “state” as we found there were several counties that existed in multiple states. Immediately afterwards we cleaned out redundant columns (repeat county and state names, and unnecessary reference id’s). The code can be seen below: 
 
-![jupyter notebook image](jupyter_pic.PNG "jupyter notebook image")
+![postgres query](Images/postgres_pic.PNG "postgres query image")
 
 
 * We included a query within our jupyter notebook that can allow users a quick access to the final table. Here is a quick preview:
