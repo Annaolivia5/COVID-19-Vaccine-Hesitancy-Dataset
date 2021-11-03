@@ -17,7 +17,7 @@ https://www.kaggle.com/deepshah16/vaccine-hesitancy-for-covid19?select=Vaccine_H
 
 ### Descriptions of Findings:
 * We realized Covid 19 vaccine hesitancy varies among different regions. We are interested in how economic factors, such as poverty, income level, and unemployment rate across different counties in the U.S. could affect Covid 19 vaccine hesitancy. As the result, people using the dataset can quickly check the correlation between these factors.
-
+![](jupyter_pic.png)
 ___________________________
 
 
