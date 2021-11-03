@@ -42,7 +42,7 @@ ___________________________
 ### Load:
 * We created two SQL tables <vaccine_data> and <census_data> on postgres where the columns match the tables we cleaned. We used pandas to load data into SQL Database. We then joined two tables on “county_name” and “state” as we found there were several counties that existed in multiple states. Immediately afterwards we cleaned out redundant columns (repeat county and state names, and unnecessary reference id’s). The code can be seen below: 
 
-* ![jupyter notebook image](jupyter_pic.png "jupyter notebook image")
+* ![](Project2/blob/main/jupyter_pic.png)
 
 * We included a query within our jupyter notebook that can allow users a quick access to the final table. Here is a quick preview:
 
