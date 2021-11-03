@@ -46,3 +46,4 @@ ___________________________
 
 * These data sets could provide insight into a complex and polarizing issue America is facing today. We feel that interested parties could quickly explore the economic factors and stressors that might affect vaccine hesitancy.
 
+![](https://github.com/Annaolivia5/Project2/blob/main/finalframe_pic.PNG
