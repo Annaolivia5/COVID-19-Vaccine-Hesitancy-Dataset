@@ -12,10 +12,10 @@
 * Data.Gov. (2021) Vaccine Hesitancy for COVID-19 (Version 1) [CSV File]. Retrieved from:
 https://www.kaggle.com/deepshah16/vaccine-hesitancy-for-covid19?select=Vaccine_Hesitancy_for_COVID-19__County_and_local_estimates.csv
 
-## Type of Final Production:
+### Type of Final Production:
 * *PostgreSQL Database
 
-## Descriptions of Findings:
+### Descriptions of Findings:
 * We realized Covid 19 vaccine hesitancy varies among different regions. We are interested in how economic factors, such as poverty, income level, and unemployment rate across different counties in the U.S. could affect Covid 19 vaccine hesitancy. As the result, people using the dataset can quickly check the correlation between these factors.
 
 ___________________________
