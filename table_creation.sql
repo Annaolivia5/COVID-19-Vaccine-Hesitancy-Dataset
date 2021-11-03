@@ -1,3 +1,5 @@
+-- Run queries to create vaccine_data and census_data before running pandas code.
+
 CREATE TABLE vaccine_data(
 	vaccine_id SERIAL PRIMARY KEY,
 	county_name TEXT,
@@ -8,9 +10,6 @@ CREATE TABLE vaccine_data(
     cvac_level_of_concern_rollout FLOAT, 
 	percent_adults_fully_vaccinated FLOAT
 );
-
-ALTER TABLE vaccine_data 
-RENAME COLUMN state TO state_v;
 
 CREATE TABLE census_data (
 	census_id SERIAL PRIMARY KEY,
@@ -25,6 +24,11 @@ CREATE TABLE census_data (
 	unemployment FLOAT
 );
 
+-- After tables are created and data inserted from pandas.
+-- the following queries will merge the data into one table.
+
+ALTER TABLE vaccine_data 
+RENAME COLUMN state TO state_v;
 
 CREATE TABLE census_vaccine_data AS(
 	SELECT *
@@ -42,6 +46,6 @@ ALTER TABLE census_vaccine_data
 
 drop table census_vaccine_data;
 drop table census_data;
+drop table vaccine_data;
 SELECT * FROM census_vaccine_data;
-
 
