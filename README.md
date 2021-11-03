@@ -52,3 +52,6 @@ ___________________________
 ![Final DataFrame](Images/finalframe_pic.PNG "Final DataFrame")
 
 * These data sets could provide insight into a complex and polarizing issue America is facing today. We feel that interested parties could quickly explore the economic factors and stressors that might affect vaccine hesitancy.
+
+
+* Note: A file (config.py) will need to be created, for importing a postgress username and password to the jupyter notebook, in order to run the notebook and add data to database tables.
