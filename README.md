@@ -1,10 +1,8 @@
-# Project2
+# COVID-19-Vaccine-Hesitancy-Dataset
 
-* Liang Lu, Natnael Tesfa, Anna Weeks, Marcus Potter
+* By Liang Lu, Natnael Tesfa, Anna Weeks, Marcus Potter
 
 
-
-## Project Proposal
 
 ### Sources of Data:
 * United States Census Bureau.(2017). US Census Demographic Data (Version 3) [CSV File].Retrieved from: https://www.kaggle.com/muonneutrino/us-census-demographic-data?select=acs2017_county_data.csv
